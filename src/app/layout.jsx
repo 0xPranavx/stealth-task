@@ -1,8 +1,8 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { Roman } from "./font";
 
-const roman= Inter({ subsets: ["latin"] });
+import "./globals.css";
+// import { Roman } from "./font";
+
+
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roman.className} m-2`}>{children}</body>
+      <body className={` m-2`}>{children}</body>
     </html>
   );
 }

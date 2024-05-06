@@ -66,10 +66,10 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen ">
     <div className=" flex flex-col justify-center items-center " >
-      <h1 className=" text-2xl md:text-5xl font-bold py-8"> Random Quote Generator</h1>
+      <h1 className=" text-2xl md:text-5xl font-mono font-bold py-8"> Random Quote Generator</h1>
      
-      <p className=" w-50 text-center text-xl font-semibold italic py-4 ">"{Quote.quote}"</p>
-      <p className="text-xl font-semibold py-6 ">-{Quote.author}</p>
+      <p className=" w-50 text-center font-mono text-xl font-semibold italic py-4 ">"{Quote.quote}"</p>
+      <p className="text-xl font-semibold font-mono py-6 ">-{Quote.author}</p>
       <button className="border p-1 bg-slate-100 border-black" onClick={randomquote}> Get New Quote</button>
     </div>
     </div>
